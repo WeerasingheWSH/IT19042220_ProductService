@@ -6,6 +6,7 @@ $(document).ready(function() {
 });
 
 // SAVE ============================================
+
 $(document).on("click", "#btnSave", function(event) {
 	// Clear alerts---------------------
 	$("#alertSuccess").text("");
@@ -32,6 +33,8 @@ $(document).on("click", "#btnSave", function(event) {
 		}
 	});
 });
+
+// This is an save success JS Methods
 
 function onProductSaveComplete(response, status) {
 
@@ -64,6 +67,8 @@ function onProductSaveComplete(response, status) {
 	$("#formItem")[0].reset();
 }
 
+// This is an update Success Methods Js
+
 $(document).on("click", ".btnUpdate", function(event) {
 	
 	$("#hidProductIDSave").val($(this).data("productid"));
@@ -75,7 +80,7 @@ $(document).on("click", ".btnUpdate", function(event) {
 	$("#NoOfUnits").val($(this).closest("tr").find('td:eq(5)').text());
 });
 
-//
+// This is an Delete Success Methods Js
 
 $(document).on("click", ".btnRemove", function(event) {
 	

@@ -20,12 +20,15 @@ public class ProductService {
 	
 	Product itemObj = new Product();
 	
+// Read all the data	
 	@GET
 	@Path("/")
 	@Produces(MediaType.TEXT_HTML)
 	public String readItems() {
 		return itemObj.readProducts();
 	}
+	
+// For Insert values
 	
 	@POST
 	@Path("/")
@@ -42,6 +45,8 @@ public class ProductService {
 		return output;
 	}
 
+// For Update values
+	
 	@PUT
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
@@ -61,6 +66,8 @@ public class ProductService {
 		return output;
 	}
 
+// For Delete values
+	
 	@DELETE
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_XML)

@@ -89,6 +89,7 @@ public class ProductAPI extends HttpServlet {
 		response.getWriter().write(output);
 	}
 
+	
 	/**
 	 * @see HttpServlet#doDelete(HttpServletRequest, HttpServletResponse)
 	 */
