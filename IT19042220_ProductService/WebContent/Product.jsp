@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
 	<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
 	<br><br>
     <div class="intro">

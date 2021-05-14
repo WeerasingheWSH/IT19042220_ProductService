@@ -5,11 +5,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+   <title>Form Product</title>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Form_Product</title>
+    <title>Form Product</title>
     <link rel="stylesheet" href="assetsProduct/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assetsProduct/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assetsProduct/css/Application-Form.css">
@@ -26,7 +26,7 @@
    <br>
    
 <section>
-    <h1 class="text-center text-capitalize">Product form</h1>
+    <h1 class="text-center text-capitalize">Product Form</h1>
     
 	<div class="container">
 		
